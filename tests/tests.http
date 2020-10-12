@@ -1,0 +1,17 @@
+### breached account from email
+GET https://haveibeenpwned.com/api/v3/breachedaccount/john%2Edoe%40hotmail%2Ecom
+hibp-api-key: {{hibp}}
+
+### all pastes from email
+GET https://haveibeenpwned.com/api/v3/pasteaccount/john.doe@hotmail.com
+hibp-api-key: {{hibp}}
+
+### all pastes from email
+GET https://haveibeenpwned.com/api/v3/pasteaccount/john%2Edoe%40hotmail%2Ecom
+hibp-api-key: {{hibp}}
+
+
+### test 5 first char of hash of a password
+### sha1 of Password1 = 70ccd9007338d6d81dd3b6271621b9cf9a97ea00
+GET https://api.pwnedpasswords.com/range/70CCD
+hibp-api-key: {{hibp}}
